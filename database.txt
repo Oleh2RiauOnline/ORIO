@@ -1,0 +1,29 @@
+Database Project Mobile
+1. Toko
+id_toko
+nama_toko
+alamat_toko
+nama_barang
+
+
+2. Pesananan
+id_pesanan
+tanggal_pemesanan
+id_toko
+id_customer
+
+
+3. Admin
+id_admin
+username
+password
+id_toko
+id_pesanan
+id_customer
+
+
+4. Customer
+id_customer
+nama_customer
+nohp_customer
+

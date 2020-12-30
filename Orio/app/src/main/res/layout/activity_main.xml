@@ -20,9 +20,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pencet Ini Lu"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="428dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="426dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

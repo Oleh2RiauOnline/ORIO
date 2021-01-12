@@ -11,7 +11,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="102dp"
         tools:layout_editor_absoluteY="347dp"
@@ -23,7 +22,6 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-
         tools:layout_editor_absoluteX="102dp"
         tools:layout_editor_absoluteY="254dp"
         tools:ignore="MissingConstraints" />
@@ -44,6 +42,17 @@
         app:srcCompat="@drawable/ic_baseline_lock_24"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="347dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_Login"
+        android:layout_width="141dp"
+        android:layout_height="52dp"
+        android:layout_below="@+id/editTextTextPassword"
+        android:layout_centerHorizontal="true"
+        android:text="Register"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="420dp"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="235dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:text="Menu Oleh Oleh"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+
+    <GridView
+        android:id="@+id/view_barang"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_width="266dp"
+        android:layout_height="519dp" />
+
+
+</RelativeLayout>

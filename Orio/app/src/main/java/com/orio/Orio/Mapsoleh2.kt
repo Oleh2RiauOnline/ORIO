@@ -1,4 +1,4 @@
-package com.example.mapsoleh2
+package com.orio.Orio
 
 import android.content.pm.PackageManager
 import android.location.Geocoder
@@ -12,7 +12,7 @@ import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.*
 
-class MapsActivity : AppCompatActivity(), OnMapReadyCallback , GoogleMap.OnMarkerClickListener{
+class Mapsoleh2 : AppCompatActivity(), OnMapReadyCallback {
 
     private lateinit var mMap: GoogleMap
 
@@ -22,7 +22,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , GoogleMap.OnMarke
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_maps)
+        setContentView(R.layout.activity_mapsoleh2)
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         val mapFragment = supportFragmentManager
             .findFragmentById(R.id.map) as SupportMapFragment
@@ -31,7 +31,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , GoogleMap.OnMarke
 
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
-        mMap.mapType = GoogleMap.MAP_TYPE_TERRAIN
+        mMap.mapType = GoogleMap.MAP_TYPE_NORMAL
         // Add a marker in Sydney and move the camera
         val pekanbaru = LatLng(-2.8554658,101.90292)
         mMap.addMarker(MarkerOptions().position(pekanbaru).title("Mega Rasa Oleh-oleh Khas Pekanbaru"))
@@ -45,11 +45,10 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , GoogleMap.OnMarke
             ) == PackageManager.PERMISSION_GRANTED){
             mMap.isMyLocationEnabled = true
         }
-        mMap.setOnMarkerClickListener(this)
         tambahMarkerLongClick(mMap)
     }
 
-    override fun onMarkerClick(p0: Marker?) = false
+    fun onMarkerClick(p0: Marker?) = false
 
     override fun onRequestPermissionsResult(
         requestCode: Int,

@@ -3,74 +3,74 @@ Toko oleh-oleh
 Jl. Jendral Sudirman No. 397 C-D, Cinta Raja, Kec. Sail, Kota Pekanbaru, Riau 28125
 -2.8554658,101.90292,7
 
-2. Oleh-oleh Pekanbaru Batik Riau Malai
-Pemancar TVRI Riau, Jl. Durian no : 21a Simpang Empat, Kelurahan, Labuh Baru Tim., Kec. Payung Sekaki, Kota Pekanbaru, Riau 28292
-0.7449414023516556, 101.33232268468667
-
-3. Queen puff Toko Oleh-oleh Pekanbaru
+2. Queen puff Toko Oleh-oleh Pekanbaru
 Jl. Serayu Kelurahan No.18, Labuh Baru Tim., Kec. Payung Sekaki, Kota Pekanbaru, Riau 28156
 0.5181241107805186, 101.42577245500219
 
-4. Insyira oleh-oleh pekanbaru
+3. Insyira oleh-oleh pekanbaru
 Jalan arifin Ahmad, kecamatan marpoyan damai, kelurahan sidolmulyo timur, Sidomulyo Tim., Kec. Marpoyan Damai, Kota Pekanbaru, Riau 28125
 0.47440891136746993, 101.42122648383754
 
-5. Bunga Rinjani Gerai oleh oleh Pekanbaru-Riau
+4. Bunga Rinjani Gerai oleh oleh Pekanbaru-Riau
 Jl. Jend. Ahmad Yani Kelurahan No.158, Pulau Karam, Kec. Sukajadi, Kota Pekanbaru, Riau 28156
 0.5215568674564568, 101.44282326849635
 
-6. Pusat oleh oleh Nadhira Napoleon Pekanbaru
+5. Pusat oleh oleh Nadhira Napoleon Pekanbaru
 Jl. Jend. Sudirman No.177, Tengkerang Sel., Kec. Bukit Raya, Kota Pekanbaru, Riau 28288
 0.49623222614824514, 101.45547835500217
 
-7. Hanisuncake, oleh-oleh PEKANBARU RIAU
+6. Hanisuncake, oleh-oleh PEKANBARU RIAU
 Jl. Utama ruko no. 1, Rejosari, Kec. Tenayan Raya, Kota Pekanbaru, Riau 28281
 0.5236726809352147, 101.47920686664933
 
-8. Dapoer Ummi Bolu Kemojo Oleh oleh Khas Pekanbaru
+7. Dapoer Ummi Bolu Kemojo Oleh oleh Khas Pekanbaru
 Jl Bakti VIII No 3 Rt 03 Rw 011 Kelurahan Tangkerang barat Kec. Marpoyan, Tengkerang Bar., Kec. Marpoyan Damai, Kota Pekanbaru, Riau 28282
 0.48105219806492855, 101.42540481082587
 
-9. Toko oleh-oleh Dara Pekanbaru
+8. Toko oleh-oleh Dara Pekanbaru
 Jl. Hangtuah Ujung No.312C, Rejosari, Kec. Tenayan Raya, Kota Pekanbaru, Riau 28111
 0.5201981971398373, 101.48213053966104
 
-10. Toko Oleh Oleh Jingga Khas Riau
+9. Toko Oleh Oleh Jingga Khas Riau
 Jl. Kaharuddin Nst No.26, Maharatu, Kec. Marpoyan Damai, Kota Pekanbaru, Riau 28125
 0.4695493122268159, 101.45407083966114
 
-11. Gerai Kembang Setaman | Oleh Oleh Khas Pekanbaru
+10. Gerai Kembang Setaman | Oleh Oleh Khas Pekanbaru
 Jl. Sekolah No.10, Kelurahan Tirta, Siak, Kota Pekanbaru, Riau 28292
 0.5431189368162932, 101.41413446849619
 
-12. Gerai Ole Oleh Khas Pekanbaru & Medan
+11. Gerai Ole Oleh Khas Pekanbaru & Medan
 Jl. Kutilang, Kp. Melayu, Kec. Sukajadi, Kota Pekanbaru, Riau 28124
 0.5027977701957536, 101.42414772171503
 
-13. RUMAH KUE VIERA (Ketan Talam Durian)
+12. RUMAH KUE VIERA (Ketan Talam Durian)
 Jl. Melati Jalan Bina widya No.2, Simpang Baru, Kec. Tampan, Kota Pekanbaru, Riau 28291
 0.49035649695411515, 101.37201431267285
 
-14. Silungkang Art Center
+13. Silungkang Art Center
 Jl. Jend. Sudirman No.628, Tengkerang Tengah, Kec. Marpoyan Damai, Kota Pekanbaru, Riau 28128
 0.569711397274401, 101.4646220554392
 
-15. Kembang Sari Toko Oleh-Oleh
+14. Kembang Sari Toko Oleh-Oleh
 Jalan Jenderal Sudirman No.61, Rintis, Kec. Lima Puluh, Kota Pekanbaru, Riau 28155
 0.6136766529630353, 101.4426413843404
 
-16. Nadhira Napoleon Pekanbaru
+15. Nadhira Napoleon Pekanbaru
 Jl. Kaharuddin Nst No.51, Simpang Tiga, Kec. Bukit Raya, Kota Pekanbaru, Riau 28288
 0.47047628304753075, 101.45435918383754
 
-17. Zie Chocolate
+16. Zie Chocolate
 Jl. Sekolah No.57, Limbungan Baru, Kec. Rumbai Pesisir, Kota Pekanbaru, Riau 28266
 0.5602125357397824, 101.43829939832379
 
-18.Lekeix Cake Durian Pekanbaru
+17.Lekeix Cake Durian Pekanbaru
 Rintis, Jl. Gatot Subroto No.11 E, Kota Tinggi, Kec. Pekanbaru Kota, Kota Pekanbaru, Riau 28115
 0.5298865565872601, 101.44973815972288
 
-19. Oleh-Oleh Lapis Pekanbaru - LASILVA
+18. Oleh-Oleh Lapis Pekanbaru - LASILVA
 Jl. Dr. Sam Ratulangi No.26, Sago, Kec. Senapelan, Kota Pekanbaru, Riau 28151
 0.5338533708677886, 101.44574814187169
+
+19. Viz Cake
+Jl. Jend. Sudirman No.418, Cinta Raja, Kec. Sail, Kota Pekanbaru, Riau 28126
+0.5025886112581697, 101.45408998383748

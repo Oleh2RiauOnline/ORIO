@@ -1,2 +1,0 @@
-com/example/mapsoleh2/BuildConfig.java
- com.example.mapsoleh2.BuildConfig

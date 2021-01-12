@@ -4,9 +4,6 @@ import android.content.pm.PackageManager
 import android.location.Geocoder
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuInflater
-import android.view.MenuItem
 import android.widget.Toast
 import androidx.core.app.ActivityCompat.*
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -34,7 +31,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback , GoogleMap.OnMarke
 
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
-        mMap.mapType = GoogleMap.MAP_TYPE_TERRAIN
         // Add a marker in Sydney and move the camera
         val pekanbaru = LatLng(0.53333, 101.45)
         mMap.addMarker(MarkerOptions().position(pekanbaru).title("Marker di Kota Pekanbaru"))

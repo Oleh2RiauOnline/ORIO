@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.firebase.database.FirebaseDatabase
 import kotlinx.android.synthetic.main.activity_main.*
+import android.content.Intent
 import android.widget.Button
 import android.view.View
 
@@ -20,8 +21,16 @@ private lateinit var login : Button
 
         register.setOnClickListener(object : View.OnClickListener {
             override fun onClick(v: View) {
-                startActivity(object intent(MainActivity.this, RegisterActivity.class))
-        })
+                startActivity(intent , RegisterActivity.class)
+            }
+        });
+
+        login.setOnClickListener(object : View.OnClickListener {
+            override fun onClick(v: View) {
+                startActivity(intent, LoginActivity.class)
+            }
+        });
+
     }
-}
+
 }

@@ -9,4 +9,25 @@
     <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
     </style>
 
+    <style name="Regular">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">72sp</item>
+        <item name="android:text">sans-serif</item>
+    </style>
+
+    <style name="Italic">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">72sp</item>
+        <item name="android:text">sans-serif</item>
+    </style>
+
+
+    <style name="Bold">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">72sp</item>
+        <item name="android:text">sans-serif</item>
+    </style>
 </resources>

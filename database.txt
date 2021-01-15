@@ -27,3 +27,19 @@ id_customer
 nama_customer
 nohp_customer
 
+
+Register > Create customer, merchant
+Login > Select customer, merchant, admin
+
+Customer
+Melihat Informasi (Tampilan Utama customer) > select
+Memesan oleh-oleh > Create, Update (Pemesanan), Delete(Hapus pesanan)
+Melihat history pemesanan > select
+
+Merchant
+Mengisi informasi(merchant) > create, update, delete
+Menerima pesanan > select, update
+History pemesanan > select
+
+Admin
+CRUD semua tabel 

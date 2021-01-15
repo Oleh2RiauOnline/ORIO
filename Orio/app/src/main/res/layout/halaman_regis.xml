@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context="">
 
+
+
     <EditText
         android:id="@+id/et_email"
         android:layout_width="wrap_content"
@@ -17,6 +19,16 @@
         android:inputType="textEmailAddress"
         android:hint="E-Mail Address"/>
 
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:ems="10"
+        android:layout_below="@+id/et_email"
+        android:inputType="text"
+        android:hint="Username"/>
 
     <EditText
         android:id="@+id/et_password"
@@ -25,7 +37,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="65dp"
         android:ems="10"
-        android:layout_below="@+id/et_email"
+        android:layout_below="@+id/et_username"
         android:inputType="textPassword"
         android:hint="Password"/>
 
@@ -42,13 +54,14 @@
 
     <Button
         android:id="@+id/btn_register"
-        android:layout_width="wrap_content"
+        android:layout_width="236dp"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/et_cpassword"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="65dp"
+        android:layout_marginTop="66dp"
+        android:backgroundTint="@color/colorPrimary"
         android:ems="10"
-        android:text="Register"
-        android:layout_below="@+id/et_cpassword" />
+        android:text="Register" />
 
 
     <ImageView
@@ -65,5 +78,16 @@
         android:layout_below="@id/image_mail"
         android:layout_marginTop="37dp"
         app:srcCompat="@drawable/ic_baseline_lock_24" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:foregroundTint="#2196F3"
+        android:text="Halaman Pendaftran"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"/>
 
 </RelativeLayout>

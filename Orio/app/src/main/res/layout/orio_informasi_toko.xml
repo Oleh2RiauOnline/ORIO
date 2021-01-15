@@ -19,54 +19,66 @@
         tools:layout_editor_absoluteX="80dp"
         tools:layout_editor_absoluteY="41dp" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="116dp"
+        android:layout_height="48dp"
+        android:background="#46D512"
+        android:text="Tambah"
+        android:textColor="#DAF10B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="400dp" />
+
     <EditText
         android:id="@+id/editTextTextPersonName2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="331dp"
+        android:layout_height="48dp"
         android:ems="10"
         android:hint="Nama Toko"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="105dp" />
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="157dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:hint="Long"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="324dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="331dp"
+        android:layout_height="40dp"
         android:ems="10"
         android:hint="Alamat Toko"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="166dp" />
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="210dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="334dp"
+        android:layout_height="46dp"
         android:ems="10"
         android:hint="Deskripsi Toko"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="231dp" />
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="269dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="149dp"
+        android:layout_height="49dp"
         android:ems="10"
+        android:hint="Lat"
         android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="298dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="361dp" />
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="330dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

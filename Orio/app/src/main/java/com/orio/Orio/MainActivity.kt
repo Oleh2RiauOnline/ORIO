@@ -15,5 +15,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Mapsoleh2::class.java)
             startActivity(intent)
         }
+        val button1 = findViewById<Button>(R.id. btn_regis)
+        button1.setOnClickListener{
+            val intent1 = Intent(this, Register::class.java)
+            startActivity(intent1)
+        }
     }
 }

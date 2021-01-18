@@ -26,6 +26,7 @@ class Register : AppCompatActivity() , View.OnClickListener{
         edemail = findViewById(R.id.et_email)
         edpassword = findViewById(R.id.et_password)
         btnregis = findViewById(R.id.btn_register)
+        
 
         btnregis.setOnClickListener(this)
 

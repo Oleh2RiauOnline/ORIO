@@ -45,7 +45,7 @@
         android:text="Informasi Oleh Oleh"
         android:textAlignment="center"
         android:textColor="#28BC9A"
-        android:textSize="14"
+        android:textSize="14sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="254dp"
         tools:layout_editor_absoluteY="153dp" />

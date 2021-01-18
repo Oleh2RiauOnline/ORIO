@@ -16,6 +16,7 @@ class Register : AppCompatActivity() , View.OnClickListener{
     private lateinit var edpassword: EditText
     private lateinit var btnregis: Button
     private lateinit var ref: DatabaseReference
+    private lateinit var konfirmpass : EditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,6 +27,7 @@ class Register : AppCompatActivity() , View.OnClickListener{
         edemail = findViewById(R.id.et_email)
         edpassword = findViewById(R.id.et_password)
         btnregis = findViewById(R.id.btn_register)
+        konfirmpass = findViewById(R.id.et_cpassword)
         
 
         btnregis.setOnClickListener(this)
@@ -53,6 +55,12 @@ class Register : AppCompatActivity() , View.OnClickListener{
     private fun simpanData() {
         val email = edemail.text.toString().trim()
         val password = edpassword.text.toString()
+        val cpassword = konfirmpass.text.toString()
+
+        if (cpassword != password){
+            Toast.makeText(this, "Password tidak sama", Toast.LENGTH_SHORT).show()
+            return
+        }
 
         if (email.isEmpty() or password.isEmpty()) {
             Toast.makeText(this, "Isi data secara lengkap tidak boleh kosong", Toast.LENGTH_SHORT)

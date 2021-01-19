@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/round_border">
 
     <View
         android:id="@+id/topView"
@@ -38,13 +38,15 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="225dp"
+        android:layout_height="54dp"
+        android:background="@drawable/round_border"
         android:ems="10"
         android:inputType="textPersonName"
+        android:padding="16dp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="304dp" />
+        tools:layout_editor_absoluteY="295dp" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -66,13 +68,15 @@
 
     <EditText
         android:id="@+id/editTextTextPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="225dp"
+        android:layout_height="53dp"
+        android:background="@drawable/round_border"
         android:ems="10"
         android:inputType="textPassword"
+        android:padding="15dp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="398dp" />
+        tools:layout_editor_absoluteY="392dp" />
 
     <Button
         android:id="@+id/btn_Login"
@@ -84,13 +88,13 @@
         android:text="MASUK"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="487dp" />
+        tools:layout_editor_absoluteY="497dp" />
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="casual"
+        android:layout_width="389dp"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-black"
         android:includeFontPadding="false"
         android:text="L O G I N "
         android:textAlignment="center"
@@ -98,8 +102,8 @@
         android:textSize="25sp"
         android:textStyle="bold"
         app:autoSizeTextType="uniform"
-        tools:layout_editor_absoluteX="149dp"
-        tools:layout_editor_absoluteY="70dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="70dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

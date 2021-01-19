@@ -6,15 +6,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="347dp" />
+    <View
+        android:id="@+id/topView"
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/topView2"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="128dp"
+        android:background="@drawable/wave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/topView" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:background="@drawable/ic_wave_bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -24,16 +44,7 @@
         android:inputType="textPersonName"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="254dp" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="66dp"
-        android:layout_height="52dp"
-        app:srcCompat="@drawable/ic_baseline_account_box_24"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="254dp" />
+        tools:layout_editor_absoluteY="304dp" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -41,8 +52,27 @@
         android:layout_height="52dp"
         app:srcCompat="@drawable/ic_baseline_lock_24"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="347dp" />
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="66dp"
+        android:layout_height="52dp"
+        app:srcCompat="@drawable/ic_baseline_account_box_24"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="398dp" />
 
     <Button
         android:id="@+id/btn_Login"
@@ -54,17 +84,22 @@
         android:text="MASUK"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="451dp" />
+        tools:layout_editor_absoluteY="487dp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="L O G I N"
-        android:textColor="#131313"
-        android:textSize="20sp"
+        android:fontFamily="casual"
+        android:includeFontPadding="false"
+        android:text="L O G I N "
+        android:textAlignment="center"
+        android:textColor="@color/hitam"
+        android:textSize="25sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="161dp" />
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="70dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

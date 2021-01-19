@@ -7,6 +7,15 @@
     android:layout_height="match_parent">
 
     <View
+        android:id="@+id/view7"
+        android:layout_width="374dp"
+        android:layout_height="718dp"
+        android:background="@drawable/round_border_barang"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/view6" />
+
+    <View
         android:id="@+id/view6"
         android:layout_width="0dp"
         android:layout_height="100sp"
@@ -14,15 +23,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:id="@+id/view7"
-        android:layout_width="411dp"
-        android:layout_height="633dp"
-        android:background="@drawable/round_border_barang"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/view6" />
 
     <View
         android:id="@+id/view8"
@@ -44,7 +44,8 @@
         android:textColorHighlight="#AE3535"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="175dp" />
+        tools:layout_editor_absoluteY="175dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName5"
@@ -55,7 +56,8 @@
         android:inputType="textPersonName"
         android:textColorHint="#000000"
         tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="269dp" />
+        tools:layout_editor_absoluteY="269dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName9"
@@ -66,7 +68,8 @@
         android:inputType="textPersonName"
         android:textColorHint="#000000"
         tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="386dp" />
+        tools:layout_editor_absoluteY="386dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName6"
@@ -77,7 +80,8 @@
         android:inputType="textPersonName"
         android:textColorHint="#000000"
         tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="324dp" />
+        tools:layout_editor_absoluteY="324dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button"
@@ -86,6 +90,7 @@
         android:background="@drawable/round_border_button"
         android:text="Button"
         tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="484dp" />
+        tools:layout_editor_absoluteY="484dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

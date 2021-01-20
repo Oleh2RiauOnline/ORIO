@@ -8,12 +8,8 @@ import android.widget.Button
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.orio_login)
+        setContentView(R.layout.orio_menu)
 
-        val button = findViewById<Button>(R.id.btn_Login)
-        button.setOnClickListener{
-
-        }
     }
 
 

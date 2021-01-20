@@ -35,11 +35,8 @@
         android:textSize="30sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="80dp"
-<<<<<<< HEAD
         tools:layout_editor_absoluteY="124dp"
-=======
-        tools:layout_editor_absoluteY="153dp"
->>>>>>> 91efeba0e773b6a7006e63a0817863048e8124f4
+
         tools:ignore="MissingConstraints" />
 
     <EditText
@@ -52,11 +49,9 @@
         android:inputType="textPersonName"
         android:textColorHint="#000000"
         tools:layout_editor_absoluteX="38dp"
-<<<<<<< HEAD
+
         tools:layout_editor_absoluteY="287dp"
-=======
-        tools:layout_editor_absoluteY="297dp"
->>>>>>> 91efeba0e773b6a7006e63a0817863048e8124f4
+
         tools:ignore="MissingConstraints" />
 
     <EditText
@@ -69,11 +64,8 @@
         android:inputType="textPersonName"
         android:textColorHint="#000000"
         tools:layout_editor_absoluteX="38dp"
-<<<<<<< HEAD
         tools:layout_editor_absoluteY="357dp"
-=======
-        tools:layout_editor_absoluteY="356dp"
->>>>>>> 91efeba0e773b6a7006e63a0817863048e8124f4
+
         tools:ignore="MissingConstraints" />
 
     <EditText
@@ -127,11 +119,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="147dp"
-<<<<<<< HEAD
         tools:layout_editor_absoluteY="504dp"
-=======
-        tools:layout_editor_absoluteY="498dp"
->>>>>>> 91efeba0e773b6a7006e63a0817863048e8124f4
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

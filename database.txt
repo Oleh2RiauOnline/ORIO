@@ -24,9 +24,14 @@ id_customer
 
 4. Customer
 id_customer
-nama_customer
-nohp_customer
+email_customer
+password_customer
 
+
+5. Merchant
+id_merchant
+email_merchant
+password_merchant
 
 Register > Create customer, merchant
 Login > Select customer, merchant, admin

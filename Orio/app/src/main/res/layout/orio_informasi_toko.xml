@@ -49,7 +49,8 @@
         android:textSize="30sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="153dp" />
+        tools:layout_editor_absoluteY="153dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
@@ -59,7 +60,8 @@
         android:hint="Alamat Toko"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="297dp" />
+        tools:layout_editor_absoluteY="297dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName4"
@@ -69,7 +71,8 @@
         android:hint="Deskripsi Toko"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="356dp" />
+        tools:layout_editor_absoluteY="356dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName8"
@@ -79,7 +82,8 @@
         android:hint="Long"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="208dp"
-        tools:layout_editor_absoluteY="411dp" />
+        tools:layout_editor_absoluteY="411dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName7"
@@ -89,7 +93,8 @@
         android:hint="Lat"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="417dp" />
+        tools:layout_editor_absoluteY="417dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
@@ -101,7 +106,8 @@
         android:hint="Nama Toko"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="228dp" />
+        tools:layout_editor_absoluteY="228dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button2"
@@ -113,6 +119,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="498dp" />
+        tools:layout_editor_absoluteY="498dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

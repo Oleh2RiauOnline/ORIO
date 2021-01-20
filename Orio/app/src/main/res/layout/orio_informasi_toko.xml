@@ -3,30 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#FFFFFF">
-
-    <View
-        android:id="@+id/view2"
-        android:layout_width="409dp"
-        android:layout_height="557dp"
-        android:background="@drawable/round_border_form"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.379" />
-
-    <View
-        android:id="@+id/view3"
-        android:layout_width="411dp"
-        android:layout_height="125dp"
-        android:layout_marginTop="1dp"
-        android:background="@drawable/selembayum"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    android:layout_height="match_parent">
 
     <View
         android:id="@+id/view"
@@ -36,6 +13,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="412dp"
+        android:layout_height="546dp"
+        android:background="@drawable/images"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="68dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView5"
@@ -49,70 +35,87 @@
         android:textSize="30sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="153dp" />
+        tools:layout_editor_absoluteY="124dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
-        android:layout_width="331dp"
-        android:layout_height="40dp"
+        android:layout_width="332dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_form"
         android:ems="10"
-        android:hint="Alamat Toko"
+        android:hint="    Alamat Toko"
         android:inputType="textPersonName"
+        android:textColorHint="#000000"
         tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="297dp" />
+        tools:layout_editor_absoluteY="287dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName4"
         android:layout_width="334dp"
         android:layout_height="46dp"
+        android:background="@drawable/round_form"
         android:ems="10"
-        android:hint="Deskripsi Toko"
+        android:hint="    Deskripsi Toko"
         android:inputType="textPersonName"
+        android:textColorHint="#000000"
         tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="356dp" />
+        tools:layout_editor_absoluteY="357dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName8"
         android:layout_width="165dp"
         android:layout_height="54dp"
+        android:background="@drawable/round_form"
         android:ems="10"
-        android:hint="Long"
+        android:hint="    Long"
         android:inputType="textPersonName"
+        android:textColorHint="#000000"
         tools:layout_editor_absoluteX="208dp"
-        tools:layout_editor_absoluteY="411dp" />
+        tools:layout_editor_absoluteY="411dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName7"
         android:layout_width="149dp"
         android:layout_height="49dp"
+        android:background="@drawable/round_form"
         android:ems="10"
-        android:hint="Lat"
+        android:hint="    Lat"
         android:inputType="textPersonName"
+        android:textColorHint="#000000"
         tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="417dp" />
+        tools:layout_editor_absoluteY="417dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="331dp"
         android:layout_height="48dp"
+        android:background="@drawable/round_form"
         android:drawablePadding="2dp"
         android:drawableTint="#151515"
         android:ems="10"
-        android:hint="Nama Toko"
+        android:hint="    Nama Toko"
         android:inputType="textPersonName"
+        android:textColorHint="#000000"
         tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="228dp" />
+        tools:layout_editor_absoluteY="228dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="116dp"
         android:layout_height="48dp"
-        android:background="@drawable/round_border_button"
+        android:background="@drawable/round_form"
         android:text="Tambah"
-        android:textColor="#DAF10B"
+        android:textColor="#F8F8F7"
         android:textSize="20sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="498dp" />
+        tools:layout_editor_absoluteY="504dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

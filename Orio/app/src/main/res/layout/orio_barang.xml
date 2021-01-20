@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,11 +8,13 @@
 
     <View
         android:id="@+id/view7"
-        android:layout_width="374dp"
-        android:layout_height="718dp"
-        android:background="@drawable/round_border_barang"
+        android:layout_width="412dp"
+        android:layout_height="593dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/images"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/view6" />
 
     <View
@@ -28,6 +30,8 @@
         android:id="@+id/view8"
         android:layout_width="413dp"
         android:layout_height="94dp"
+        android:layout_below="@id/view7"
+        android:layout_marginTop="44dp"
         android:background="@drawable/ic_wave_bottom"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,46 +55,45 @@
         android:id="@+id/editTextTextPersonName5"
         android:layout_width="336dp"
         android:layout_height="47dp"
+        android:background="@drawable/round_form"
         android:ems="10"
-        android:hint="Nama Oleh-oleh"
+        android:hint="    Nama Oleh-oleh"
         android:inputType="textPersonName"
-        android:textColorHint="#000000"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="269dp"
-        tools:ignore="MissingConstraints" />
+        android:textColorHint="#000000" />
 
     <EditText
         android:id="@+id/editTextTextPersonName9"
         android:layout_width="335dp"
         android:layout_height="52dp"
+        android:layout_below="@id/editTextTextPersonName5"
+        android:layout_marginTop="117dp"
+        android:background="@drawable/round_form"
         android:ems="10"
-        android:hint="Harga Oleh-oleh"
+        android:hint="    Harga Oleh-oleh"
         android:inputType="textPersonName"
-        android:textColorHint="#000000"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="386dp"
-        tools:ignore="MissingConstraints" />
+        android:textColorHint="#000000" />
 
     <EditText
         android:id="@+id/editTextTextPersonName6"
         android:layout_width="337dp"
         android:layout_height="50dp"
+        android:layout_below="@id/editTextTextPersonName9"
+        android:layout_marginTop="97dp"
+        android:background="@drawable/round_form"
         android:ems="10"
-        android:hint="Jenis Oleh-oleh"
+        android:hint="    Jenis Oleh-oleh"
         android:inputType="textPersonName"
-        android:textColorHint="#000000"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="324dp"
-        tools:ignore="MissingConstraints" />
+        android:textColorHint="#000000" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTextPersonName6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="0dp"
         android:background="@drawable/round_border_button"
-        android:text="Button"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="484dp"
-        tools:ignore="MissingConstraints" />
+        android:text="Button" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

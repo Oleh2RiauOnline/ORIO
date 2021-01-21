@@ -1,18 +1,11 @@
 package com.orio.Orio
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View;
-import android.widget.Toast;
-import android.widget.Button
 
-class MainActivity : AppCompatActivity() {
+class OrioMenu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.orio_menu)
-
+        setContentView(R.layout.activity_orio_menu)
     }
-
-
 }

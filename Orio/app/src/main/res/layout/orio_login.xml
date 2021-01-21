@@ -1,109 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/round_border">
+    android:background="#073042">
 
-    <View
-        android:id="@+id/topView"
-        android:layout_width="0dp"
-        android:layout_height="130dp"
-        android:background="@color/colorPrimary"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:id="@+id/topView2"
-        android:layout_width="0dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="128dp"
-        android:background="@drawable/wave"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/topView" />
-
-    <View
-        android:id="@+id/view4"
-        android:layout_width="410dp"
-        android:layout_height="172dp"
-        android:background="@drawable/ic_wave_bottom"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="225dp"
-        android:layout_height="54dp"
-        android:background="@drawable/round_border"
-        android:ems="10"
-        android:inputType="textPersonName"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
         android:padding="16dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="295dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="66dp"
-        android:layout_height="52dp"
-        app:srcCompat="@drawable/ic_baseline_lock_24"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="391dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:height="100dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="40dp"
+            android:text="L O G I N"
+            android:textSize="30dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="66dp"
-        android:layout_height="52dp"
-        app:srcCompat="@drawable/ic_baseline_account_box_24"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="297dp" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal">
 
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="225dp"
-        android:layout_height="53dp"
-        android:background="@drawable/round_border"
-        android:ems="10"
-        android:inputType="textPassword"
-        android:padding="15dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="392dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:padding="10dp"
+                android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btn_Login"
-        android:layout_width="141dp"
-        android:layout_height="52dp"
-        android:layout_below="@+id/editTextTextPassword"
-        android:layout_centerHorizontal="true"
-        android:backgroundTint="#8DDC33"
-        android:text="MASUK"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="497dp" />
+                <EditText
+                    android:id="@+id/log_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:drawableStart="@drawable/ic_baseline_account_box_24"
+                    android:drawableLeft="@drawable/ic_baseline_account_box_24"
+                    android:hint="Username"
+                    android:inputType="textPersonName" />
 
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="389dp"
-        android:layout_height="50dp"
-        android:fontFamily="sans-serif-black"
-        android:includeFontPadding="false"
-        android:text="L O G I N "
-        android:textAlignment="center"
-        android:textColor="@color/hitam"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        app:autoSizeTextType="uniform"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="70dp" />
+                <EditText
+                    android:id="@+id/login_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:drawableStart="@drawable/ic_baseline_account_box_24"
+                    android:drawableLeft="@drawable/ic_baseline_account_box_24"
+                    android:drawablePadding="10dp"
+                    android:layout_marginTop="30dp"
+                    android:hint="Password"
+                    android:layout_marginBottom="20dp"
+                    android:inputType="textPassword" />
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="#073042"
+                    android:layout_gravity="center"
+                    android:text="Login"
+                    android:textColor="@android:color/white"
+                    android:shadowRadius="@android:integer/config_mediumAnimTime"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:text="Daftar Disini"
+                    android:textColor="#073042"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

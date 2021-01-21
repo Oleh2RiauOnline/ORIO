@@ -124,34 +124,50 @@
                     android:gravity="center"
                     android:padding="20dp"
                     android:layout_weight="1"
-                    android:background="@drawable/selembayum"
+                    android:layout_gravity="center_vertical"
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
+
                     <ImageView
-                        android:adjustViewBounds="true"
-                        android:cropToPadding="true"
                         android:layout_width="50dp"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:layout_gravity="center_vertical"
+                        android:background="@android:mipmap/sym_def_app_icon"
+                        android:cropToPadding="true" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Disini Letak Content Segala macamnya"/>
+
                 </LinearLayout>
                 <RelativeLayout
                     android:layout_width="10dp"
                     android:layout_height="match_parent">
                 </RelativeLayout>
-                <LinearLayout
-                    android:gravity="center"
-                    android:padding="20dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/selembayum"
-                    android:orientation="horizontal"
+            <LinearLayout
+                android:gravity="center"
+                android:padding="20dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:mipmap/sym_def_app_icon"
+                    android:cropToPadding="true" />
+                <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                    <ImageView
-                        android:adjustViewBounds="true"
-                        android:cropToPadding="true"
-                        android:layout_width="50dp"
-                        android:layout_height="wrap_content"/>
-                </LinearLayout>
+                    android:layout_height="match_parent"
+                    android:text="Disini Letak Content Segala macamnya"/>
+
+            </LinearLayout>
         </LinearLayout>
         <LinearLayout
             android:layout_marginTop="10dp"
@@ -162,16 +178,23 @@
                 android:gravity="center"
                 android:padding="20dp"
                 android:layout_weight="1"
-                android:background="@drawable/selembayum"
+                android:layout_gravity="center_vertical"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-                <ImageView
-                    android:adjustViewBounds="true"
-                    android:cropToPadding="true"
 
+                <ImageView
                     android:layout_width="50dp"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:mipmap/sym_def_app_icon"
+                    android:cropToPadding="true" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Disini Letak Content Segala macamnya"/>
+
             </LinearLayout>
             <RelativeLayout
                 android:layout_width="10dp"
@@ -181,17 +204,24 @@
                 android:gravity="center"
                 android:padding="20dp"
                 android:layout_weight="1"
-                android:background="@drawable/selembayum"
+                android:layout_gravity="center_vertical"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-                <ImageView
-                    android:adjustViewBounds="true"
-                    android:cropToPadding="true"
 
+                <ImageView
                     android:layout_width="50dp"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:mipmap/sym_def_app_icon"
+                    android:cropToPadding="true" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Disini Letak Content Segala macamnya"/>
             </LinearLayout>
+
         </LinearLayout>
     </LinearLayout>
     </LinearLayout>

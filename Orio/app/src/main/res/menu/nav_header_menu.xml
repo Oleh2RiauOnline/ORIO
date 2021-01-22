@@ -3,28 +3,21 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/beranda"
-            android:icon="@drawable/logo_home"
-            android:title="Beranda"/>
-    </group>
-    <group android:checkableBehavior="single">
+            android:id="@+id/customer"
+            android:icon="@drawable/username"
+            android:title="Customer"/>
         <item
-            android:id="@+id/reg_toko"
-            android:icon="@drawable/regis_toko"
-            android:title="Regis Toko"/>
+            android:id="@+id/merchant"
+            android:icon="@drawable/merchan_icon"
+            android:title="Merchant"/>
         <item
-            android:id="@+id/log_toko"
+            android:id="@+id/toko"
             android:icon="@drawable/login_toko"
-            android:title="Login Toko"/>
-    </group>
-    <group android:checkableBehavior="single">
+            android:title="Toko"/>
         <item
-            android:id="@+id/reg_cus"
-            android:icon="@drawable/ic_baseline_account_box_24"
-            android:title="Regis Toko"/>
-        <item
-            android:id="@+id/log_cus"
-            android:icon="@drawable/ic_baseline_account_box_24"
-            android:title="Login Toko"/>
+            android:id="@+id/Pemesanan"
+            android:icon="@drawable/pemesanan_icon"
+            android:title="Pemesanan"/>
     </group>
+
 </menu>

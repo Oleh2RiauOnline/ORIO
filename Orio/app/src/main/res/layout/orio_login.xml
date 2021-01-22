@@ -64,6 +64,7 @@
                     android:layout_marginBottom="20dp"
                     android:inputType="textPassword" />
                 <Button
+                    android:id="@+id/btn"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -73,6 +74,7 @@
                     android:textColor="@android:color/white"
                     android:shadowRadius="@android:integer/config_mediumAnimTime"/>
                 <TextView
+                    android:id="@+id/daftarregis"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"

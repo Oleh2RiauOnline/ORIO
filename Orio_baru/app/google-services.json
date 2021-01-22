@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "550919027948",
+    "firebase_url": "https://orio-a5a25-default-rtdb.firebaseio.com",
+    "project_id": "orio-a5a25",
+    "storage_bucket": "orio-a5a25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550919027948:android:1ec46db29578bfd52eb9c9",
+        "android_client_info": {
+          "package_name": "com.example.orio_baru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550919027948-jmbf457g5pdjog8sfbsr8std8lro4v6l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjOCu_2y5z_1VvIZ3rrxDCaY_KNes8Glk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550919027948-jmbf457g5pdjog8sfbsr8std8lro4v6l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550919027948:android:388e9b5437c94fde2eb9c9",
+        "android_client_info": {
+          "package_name": "com.orio.Orio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550919027948-jmbf457g5pdjog8sfbsr8std8lro4v6l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjOCu_2y5z_1VvIZ3rrxDCaY_KNes8Glk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550919027948-jmbf457g5pdjog8sfbsr8std8lro4v6l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

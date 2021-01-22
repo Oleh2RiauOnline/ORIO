@@ -23,7 +23,7 @@
             android:gravity="center"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="40dp"
-            android:text="LOGIN CUSTOMER"
+            android:text="LOGIN ADMIN"
             android:textSize="30dp"
             android:fontFamily="sans-serif-light"
             android:textColor="@android:color/white"
@@ -85,8 +85,5 @@
                     android:layout_marginBottom="20dp"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
-
     </LinearLayout>
-
-
 </RelativeLayout>

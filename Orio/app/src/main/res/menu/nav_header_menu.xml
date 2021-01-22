@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/beranda"
+            android:icon="@drawable/logo_home"
+            android:title="Beranda"/>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/reg_toko"
+            android:icon="@drawable/regis_toko"
+            android:title="Regis Toko"/>
+        <item
+            android:id="@+id/log_toko"
+            android:icon="@drawable/login_toko"
+            android:title="Login Toko"/>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/reg_cus"
+            android:icon="@drawable/ic_baseline_account_box_24"
+            android:title="Regis Toko"/>
+        <item
+            android:id="@+id/log_cus"
+            android:icon="@drawable/ic_baseline_account_box_24"
+            android:title="Login Toko"/>
+    </group>
+</menu>

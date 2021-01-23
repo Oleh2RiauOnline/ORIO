@@ -31,24 +31,25 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".Maps"
+            android:name=".Customer.Maps"
             android:label="@string/title_activity_maps"></activity>
         <!-- <activity android:name=".CustomerAdapter"></activity> -->
-        <activity android:name=".Login">
+        <activity android:name=".Customer.Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Register" />
+        <activity android:name=".Customer.Register" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".OrioMenu" />
+        <activity android:name=".Customer.OrioMenu" />
         <activity android:name=".Toko" />
-        <activity android:name=".DetailBarang" />
-        <activity android:name=".KeranjangPembelian" />
+        <activity android:name=".Customer.DetailBarang" />
+        <activity android:name=".Customer.KeranjangPembelian" />
         <activity android:name=".listRiwayat" />
-        <activity android:name=".RiwayatPembelian" />
+        <activity android:name=".Customer.RiwayatPembelian" />
+
     </application>
 
 </manifest>

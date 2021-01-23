@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">550919027948-jmbf457g5pdjog8sfbsr8std8lro4v6l.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://orio-a5a25-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">550919027948</string>
+    <string name="google_api_key" translatable="false">AIzaSyAjOCu_2y5z_1VvIZ3rrxDCaY_KNes8Glk</string>
+    <string name="google_app_id" translatable="false">1:550919027948:android:0874c802373078d42eb9c9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAjOCu_2y5z_1VvIZ3rrxDCaY_KNes8Glk</string>
+    <string name="google_storage_bucket" translatable="false">orio-a5a25.appspot.com</string>
+    <string name="project_id" translatable="false">orio-a5a25</string>
+</resources>

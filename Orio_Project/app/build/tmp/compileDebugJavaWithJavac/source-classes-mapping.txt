@@ -1,0 +1,2 @@
+com/orio/Orio/BuildConfig.java
+ com.orio.Orio.BuildConfig

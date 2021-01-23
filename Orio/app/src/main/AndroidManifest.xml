@@ -30,9 +30,7 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity
-            android:name=".Customer.Maps"
-            android:label="@string/title_activity_maps"></activity>
+
         <!-- <activity android:name=".CustomerAdapter"></activity> -->
 
         <activity android:name=".SplahScreenActivity">
@@ -42,16 +40,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Customer.Register" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".Customer.OrioMenu" />
-        <activity android:name=".Toko" />
         <activity android:name=".Customer.DetailBarang" />
         <activity android:name=".Customer.KeranjangPembelian" />
-        <activity android:name=".listRiwayat" />
-
-        <activity android:name=".RiwayatPembelian" />
-        <activity android:name=".Login"/>
+        <activity android:name=".Customer.Login"/>
+        <activity
+            android:name=".Customer.Maps"
+            android:label="@string/title_activity_maps"></activity>
+        <activity android:name=".Customer.OrioMenu" />
+        <activity android:name=".Customer.Register" />
+        <activity android:name=".Customer.RiwayatPembelian" />
+        <activity android:name=".Merchant.DaftarToko"/>
+        <activity android:name=".Merchant.HistoryMerchant"/>
+        <activity android:name=".Merchant.LoginMerchant"/>
+        <activity android:name=".Merchant.PesananMerchant"/>
+        <activity android:name=".Merchant.ProfilToko"/>
+        <activity android:name=".Merchant.RegisterMerchant"/>
     </application>
 
 </manifest>

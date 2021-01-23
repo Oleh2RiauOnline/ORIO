@@ -12,7 +12,7 @@ class LoginMerchant : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.orio_login_toko)
 
-        val button = findViewById<Button>(R.id.bttn)
+        val button = findViewById<Button>(R.id.btn_login)
         button.setOnClickListener{
             val intent = Intent(this, ProfilToko::class.java)
             startActivity(intent)
@@ -20,8 +20,8 @@ class LoginMerchant : AppCompatActivity() {
 
         val textView = findViewById<TextView>(R.id.regismerchant)
         textView.setOnClickListener{
-            val intent = Intent(this, RegisterMerchant::class.java)
-            startActivity(intent)
+            val intent1 = Intent(this, RegisterMerchant::class.java)
+            startActivity(intent1)
         }
 
 

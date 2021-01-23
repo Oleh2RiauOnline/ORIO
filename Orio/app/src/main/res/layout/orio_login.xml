@@ -1,49 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#073042">
 
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-        android:inputType="textPassword"
-        tools:layout_editor_absoluteX="102dp"
-        tools:layout_editor_absoluteY="347dp"
-        tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:height="100dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="40dp"
+            android:text="LOGIN CUSTOMER"
+            android:textSize="30dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal">
 
-        tools:layout_editor_absoluteX="102dp"
-        tools:layout_editor_absoluteY="254dp"
-        tools:ignore="MissingConstraints" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:padding="10dp"
+                android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="66dp"
-        android:layout_height="52dp"
-        app:srcCompat="@drawable/ic_baseline_account_box_24"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="254dp"
-        tools:ignore="MissingConstraints" />
+                <EditText
+                    android:id="@+id/log_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:drawableStart="@drawable/username"
+                    android:drawableLeft="@drawable/username"
+                    android:hint="Username"
+                    android:inputType="textPersonName" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="66dp"
-        android:layout_height="52dp"
-        app:srcCompat="@drawable/ic_baseline_lock_24"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="347dp"
-        tools:ignore="MissingConstraints" />
+                <EditText
+                    android:id="@+id/login_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:drawableStart="@drawable/ic_baseline_lock_24"
+                    android:drawableLeft="@drawable/ic_baseline_lock_24"
+                    android:drawablePadding="10dp"
+                    android:layout_marginTop="30dp"
+                    android:hint="Password"
+                    android:layout_marginBottom="20dp"
+                    android:inputType="textPassword" />
+                <Button
+                    android:id="@+id/btn"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="#073042"
+                    android:layout_gravity="center"
+                    android:text="Login"
+                    android:textColor="@android:color/white"
+                    android:shadowRadius="@android:integer/config_mediumAnimTime"/>
+                <TextView
+                    android:id="@+id/daftarregis"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:text="Daftar Disini"
+                    android:textColor="#073042"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

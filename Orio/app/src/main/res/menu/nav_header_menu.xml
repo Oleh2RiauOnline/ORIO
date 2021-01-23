@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/customer"
+            android:icon="@drawable/username"
+            android:title="Customer"/>
+        <item
+            android:id="@+id/merchant"
+            android:icon="@drawable/merchan_icon"
+            android:title="Merchant"/>
+        <item
+            android:id="@+id/toko"
+            android:icon="@drawable/login_toko"
+            android:title="Toko"/>
+        <item
+            android:id="@+id/Pemesanan"
+            android:icon="@drawable/pemesanan_icon"
+            android:title="Pemesanan"/>
+    </group>
+
+</menu>

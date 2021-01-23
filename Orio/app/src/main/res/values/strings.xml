@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Orio</string>
+<<<<<<< HEAD
     <string name="title_activity_mapsoleh2">Map</string>
+=======
+    <string name="title_activity_maps">Map</string>
+>>>>>>> raihan
 </resources>

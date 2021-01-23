@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/judul_list_merchant"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#27943D">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:text="DAFTAR TOKO"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/list_merchant"
+            android:orientation="vertical"
+            android:layout_below="@id/judul_list_merchant"
+            android:layout_width="match_parent"
+            android:layout_height="550dp">
+            <ListView
+                android:id="@+id/list_pesanan"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+            </ListView>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/list_merchant"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="UP"/>
+    </LinearLayout>
+</RelativeLayout>

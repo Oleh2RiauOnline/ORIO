@@ -1,11 +1,11 @@
-package com.orio.Orio
+package com.orio.Orio.Customer
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import org.w3c.dom.Text
+import com.orio.Orio.R
 
 class Login : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -8,11 +8,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
-import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.firebase.database.FirebaseDatabase
 import com.orio.Orio.R
 import com.orio.Orio.db.Customer
-import com.orio.Orio.show_customer
+import com.orio.Orio.Admin.show_customer
 
 class CustomerAdapter (val mCtx: Context, val layoutResId: Int, val list: List<Customer> )
     : ArrayAdapter<Customer>(mCtx,layoutResId,list){

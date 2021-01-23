@@ -56,6 +56,9 @@
         <activity android:name=".Merchant.PesananMerchant"/>
         <activity android:name=".Merchant.ProfilToko"/>
         <activity android:name=".Merchant.RegisterMerchant"/>
+        <activity android:name=".Admin.add_customer"/>
+        <activity android:name=".Admin.AdminActivity"/>
+        <activity android:name=".Admin.show_customer"/>
     </application>
 
 </manifest>

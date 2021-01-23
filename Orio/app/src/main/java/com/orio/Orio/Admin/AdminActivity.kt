@@ -1,12 +1,10 @@
-package com.orio.Orio
+package com.orio.Orio.Admin
 
-import android.app.AlertDialog
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
-import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.orio.Orio.R
 
 
 class AdminActivity : AppCompatActivity() {

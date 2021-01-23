@@ -1,4 +1,4 @@
-package com.orio.Orio
+package com.orio.Orio.Admin
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.textfield.TextInputEditText
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
+import com.orio.Orio.R
 import com.orio.Orio.db.Customer
 
 class add_customer: AppCompatActivity() {

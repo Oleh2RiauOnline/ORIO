@@ -7,4 +7,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Theme.Orio.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Orio.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>

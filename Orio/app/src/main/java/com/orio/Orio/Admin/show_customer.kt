@@ -1,4 +1,4 @@
-package com.orio.Orio
+package com.orio.Orio.Admin
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.firebase.database.*
 import com.orio.Orio.Adapter.CustomerAdapter
+import com.orio.Orio.R
 import com.orio.Orio.db.Customer
 
 class show_customer :AppCompatActivity() {

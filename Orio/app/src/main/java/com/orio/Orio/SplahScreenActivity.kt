@@ -3,8 +3,7 @@ package com.orio.Orio
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.orio.Orio.Customer.Login
-import com.orio.Orio.Merchant.LoginMerchant
+import com.orio.Orio.Admin.AdminActivity
 import java.lang.Exception
 
 class SplahScreenActivity : AppCompatActivity() {

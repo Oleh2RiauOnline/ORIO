@@ -22,6 +22,7 @@ class Maps : AppCompatActivity(), OnMapReadyCallback {
         val mapFragment = supportFragmentManager
             .findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
+
     }
 
     /**
@@ -38,8 +39,8 @@ class Maps : AppCompatActivity(), OnMapReadyCallback {
 
         // Add a marker in Sydney and move the camera
         val marker = LatLng(-2.8554658,101.902927)
-        mMap.addMarker(MarkerOptions().position(marker).title("Mega Rasa Oleh-oleh Khas Pekanbaru\n" +
-                "Jl. Jendral Sudirman No. 397 C-D, Cinta Raja, Kec. Sail, Kota Pekanbaru, Riau 28125"))
+        mMap.addMarker(MarkerOptions().position(marker).title("Mega Rasa Oleh-oleh Khas Pekanbaru"))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(marker))
+
     }
 }

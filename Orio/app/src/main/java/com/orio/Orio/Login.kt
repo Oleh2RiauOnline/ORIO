@@ -17,9 +17,10 @@ class Login : AppCompatActivity() {
             val intent = Intent(this, OrioMenu::class.java)
             startActivity(intent)
         }
+
         val textView = findViewById<TextView>(R.id.daftarregis)
         textView.setOnClickListener{
-            val intent = Intent(this, OrioMenu::class.java)
+            val intent = Intent(this, Register::class.java)
             startActivity(intent)
         }
 

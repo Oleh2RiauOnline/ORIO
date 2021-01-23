@@ -1,0 +1,2 @@
+com/example/crud/BuildConfig.java
+ com.example.crud.BuildConfig

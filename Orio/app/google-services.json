@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "274941375050",
+    "firebase_url": "https://orio-e6347-default-rtdb.firebaseio.com",
+    "project_id": "orio-e6347",
+    "storage_bucket": "orio-e6347.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274941375050:android:30eb3eebe53e14326dacb3",
+        "android_client_info": {
+          "package_name": "com.orio.Orio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274941375050-00ke8h09t7ohstt36tn7scus858f21gl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO2auIZ0rbv42-U8rsgDkNO2jLOOnR3DA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "274941375050-00ke8h09t7ohstt36tn7scus858f21gl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

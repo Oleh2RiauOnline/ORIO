@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F1E8E8"
     tools:context=".MainActivity">
 
-    <ImageView
+
+    <TextView
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/ic_launcher_foreground"
-        android:scaleType="centerInside"/>
+        android:gravity="center"
+        android:text="ORIO"
+        android:textSize="72sp"
+        style="@style/Italic"
+        android:textColor="#f14511"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

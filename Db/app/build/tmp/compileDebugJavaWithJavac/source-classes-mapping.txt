@@ -1,0 +1,2 @@
+com/example/db/BuildConfig.java
+ com.example.db.BuildConfig

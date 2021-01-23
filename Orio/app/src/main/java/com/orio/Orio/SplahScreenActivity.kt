@@ -17,7 +17,7 @@ class SplahScreenActivity : AppCompatActivity() {
                 try{
                     Thread.sleep(3000)
 
-                    val intent = Intent(baseContext, Login::class.java)
+                    val intent = Intent(baseContext, AdminActivity::class.java)
                     startActivity(intent)
                 }catch (e: Exception){
                     e.printStackTrace()

@@ -9,20 +9,19 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
         android:layout_marginBottom="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.201">
+        app:layout_constraintVertical_bias="0.43">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/upNama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nama Toko"
+            android:hint="Nama Barang"
             android:inputType="text" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -37,13 +36,13 @@
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.281">
+        app:layout_constraintVertical_bias="0.443">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/upAlamat"
+            android:id="@+id/upKuant"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Alamat Toko"
+            android:hint="Kuantitas Barang"
             android:inputType="text" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -51,59 +50,20 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="250dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.248">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/upDeskripsi"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Deskripsi Toko"
-            android:inputType="text" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="400dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.216">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/upLat"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Latitude"
-            android:inputType="text" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="550dp"
+        android:layout_marginTop="90dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="0.616">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/upLong"
+            android:id="@+id/upHarga"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Longitude"
+            android:hint="Harga Barang"
             android:inputType="text" />
     </com.google.android.material.textfield.TextInputLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -25,6 +25,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent (this, show_customer::class.java)
             startActivity(intent)
         }
+        merchant_btn.setOnClickListener{
+            val intent = Intent (this, show_merchant::class.java)
+            startActivity(intent)
+        }
     }
 
 

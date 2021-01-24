@@ -3,12 +3,15 @@ Database Project Mobile
 id_toko
 nama_toko
 alamat_toko
-nama_barang
+deskrpisi
+long
+lat
 
 
 2. Pesananan
 id_pesanan
 tanggal_pemesanan
+id_barang
 id_toko
 id_customer
 
@@ -26,12 +29,20 @@ id_customer
 id_customer
 email_customer
 password_customer
-
+repassword
 
 5. Merchant
 id_merchant
 email_merchant
 password_merchant
+repassword
+
+6. Barang
+id_barang
+nama_barang
+kuantitas_barang
+harga_barang
+id_toko
 
 Register > Create customer, merchant
 Login > Select customer, merchant, admin

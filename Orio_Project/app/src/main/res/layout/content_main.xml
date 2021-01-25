@@ -53,14 +53,17 @@
         android:orientation="horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
+
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/imageButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="100px"
+            android:layout_weight="1"
             android:elevation="4dp"
             android:scaleType="centerInside"
-            app:srcCompat="@drawable/ic_customer"
-            android:layout_marginStart="100px"/>
+            app:srcCompat="@drawable/ic_customer" />
+
         <ImageButton
             android:id="@+id/imageButton4"
             android:layout_width="match_parent"
@@ -80,6 +83,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="200px"/>
+
         <TextView
             android:id="@+id/txt4"
             android:text="Pesananan"
@@ -87,4 +91,21 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="370px"/>
     </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100px"
+        android:elevation="4dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/ic_customer" />
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="500px"
+        android:layout_weight="1"
+        android:text="Barang" />
 </LinearLayout>
